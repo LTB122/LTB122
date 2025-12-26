@@ -23,15 +23,23 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
           
-          # --- PHẦN SỬA LỖI ---
-          # Dùng extras_css để ép màu Radical (Nền tối, chữ Neon)
+          # --- PHẦN STYLE ĐÃ FIX (NỀN TRẮNG - CHỮ RÕ) ---
           extras_css: |
-            svg { background-color: #141321 !important; border-radius: 10px; }
-            .header { color: #fe428e !important; }
-            .field { color: #a9fef7 !important; }
-            h1, h2, h3 { color: #fe428e !important; }
+            /* Nền trắng, bo góc */
+            svg { background-color: #ffffff !important; border-radius: 10px; }
+            
+            /* Tiêu đề to: Màu Tím Đậm (cho đồng bộ với cái Typing) */
+            .header, h1, h2, h3 { color: #9850e4 !important; }
+            
+            /* Chữ nội dung: Màu Đen Xanh (để đọc rõ trên nền trắng) */
+            .field, .content, .stat { color: #1f2937 !important; }
+            
+            /* Các con số/highlight: Màu Hồng Neon */
+            strong, b, .large { color: #fe428e !important; }
+            
+            /* Icon: Màu Xanh Dương */
+            .icon { color: #7aa2f7 !important; fill: #7aa2f7 !important; }
           # --------------------
-          
           # Plugin: Ngôn ngữ
           plugin_languages: yes
           plugin_languages_ignored: >-
