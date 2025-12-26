@@ -44,13 +44,6 @@ jobs:
           plugin_languages_limit: 8
 
           # ===============================
-          # ⏰ Plugin: Thói quen code
-          # ===============================
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
-          # ===============================
           # 📆 Plugin: Calendar 3D
           # ===============================
           plugin_isocalendar: yes
