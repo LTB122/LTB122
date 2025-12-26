@@ -38,7 +38,7 @@
 
 <h2 align="center">🚀 Deep Analysis</h2>
 <div align="center">
-  <img src="https://github.com/LTB122/LTB122/blob/metrics/github-metrics.svg" width="100%" />
+  <img src="./github-metrics.svg" width="100%" />
 </div>
 
 ---
