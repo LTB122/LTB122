@@ -20,8 +20,8 @@ jobs:
         with:
           github_user_name: LTB122
           outputs: |
-            # Palette: Nền tối (Tokyo Night BG) -> Tím nhạt -> Tím đậm -> Xanh neon -> Hồng
-            dist/github-contribution-grid-snake.svg?palette=#1a1b26,#7aa2f7,#bb9af7,#7dcfff,#f7768e
+            # Palette: Màu nền tối (Tokyo Night) -> Xanh nhạt -> Tím -> Hồng (Khớp với Header)
+            dist/github-contribution-grid-snake.svg?palette=#1a1b26,#7aa2f7,#bb9af7,#f7768e,#ff9e64
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
