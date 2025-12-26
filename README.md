@@ -66,6 +66,4 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=f7768e,9850e4,7aa2f7&height=120&section=footer" width="100%"/>
-  <br/>
-  <img src="https://visitcount.itsvg.in/api?id=LTB122&icon=0&color=10" />
 </div>
