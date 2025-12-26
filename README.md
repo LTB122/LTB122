@@ -19,19 +19,15 @@
 
 <br/>
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center">📊 Analytics Dashboard</h2>
 
 <div align="center">
-  <table style="border: none;">
-    <tr>
-      <td align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api?username=LTB122&theme=radical&hide_border=false&include_all_commits=true&count_private=true&show_icons=true" alt="General Stats" />
-      </td>
-      <td align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LTB122&theme=radical&hide_border=false&layout=compact&langs_count=8" alt="Top Langs" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LTB122&theme=tokyonight" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LTB122&theme=tokyonight" height="180" />
+  <br/>
+  
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LTB122&theme=tokyonight" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LTB122&theme=tokyonight" height="180" />
   
   <br/>
   
@@ -40,9 +36,16 @@
 
 ---
 
+<h2 align="center">🚀 Deep Analysis</h2>
+<div align="center">
+  <img src="https://github.com/LTB122/LTB122/blob/metrics/github-metrics.svg" width="100%" />
+</div>
+
+---
+
 <h2 align="center">📈 Activity Graph</h2>
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LTB122&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&color=bc42f5" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LTB122&theme=radical&bg_color=0d1117&hide_border=true&area=true&color=bc42f5" width="100%" />
 </div>
 
 ---
@@ -64,5 +67,4 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=F4D03F,16A085,5B2C6F,E74C3C&height=120&section=footer" width="100%"/>
   <br/>
-  <img src="https://visitcount.itsvg.in/api?id=LTB122&icon=0&color=12" />
 </div>
