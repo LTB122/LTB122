@@ -20,9 +20,8 @@ jobs:
         with:
           github_user_name: LTB122
           outputs: |
-            # Palette: Nền trắng (để hòa vào trang) -> Hồng nhạt -> Hồng đậm -> Vàng
-            # Cái này giúp con rắn nhìn như đang bò trên giấy trắng
-            dist/github-contribution-grid-snake.svg?palette=#ffffff,#ffc2d6,#fe428e,#b9195e,#f8d847
+            # Palette: Nền Trắng -> Xanh Nhạt -> Xanh Dương -> Tím -> Hồng (Pastel)
+            dist/github-contribution-grid-snake.svg?palette=#ffffff,#c0caf5,#7aa2f7,#9850e4,#f7768e
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

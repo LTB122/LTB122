@@ -26,10 +26,22 @@ jobs:
           # --- PHẦN SỬA LỖI ---
           # Dùng extras_css để ép màu Radical (Nền tối, chữ Neon)
           extras_css: |
-            svg { background-color: #141321 !important; border-radius: 10px; }
-            .header { color: #fe428e !important; }
-            .field { color: #a9fef7 !important; }
-            h1, h2, h3 { color: #fe428e !important; }
+            /* Nền trắng sạch sẽ */
+            svg { background-color: #ffffff !important; border-radius: 10px; border: 2px solid #f7768e; }
+            
+            /* Tiêu đề chính: Màu Hồng Pastel (#f7768e) */
+            .header, h1, h2, h3 { color: #f7768e !important; }
+            
+            /* Chữ nội dung: Màu Xanh Đen (để dễ đọc) */
+            .field, .content, .stat { color: #2e3440 !important; }
+            
+            /* Các con số nhấn mạnh: Màu Tím (#9850e4) */
+            strong, b, .large { color: #9850e4 !important; }
+            
+            /* Icon & Progress Bar: Màu Xanh Dương (#7aa2f7) */
+            .icon { color: #7aa2f7 !important; fill: #7aa2f7 !important; }
+            .progress-bar { background-color: #7aa2f7 !important; }
+          # --------------------
           # --------------------
           
           # Plugin: Ngôn ngữ

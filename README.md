@@ -22,30 +22,30 @@
 <h2 align="center">📊 Analytics Dashboard</h2>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LTB122&theme=radical" height="180" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LTB122&theme=radical" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=LTB122&theme=tokyonight" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=LTB122&theme=tokyonight" height="180" />
   <br/>
   
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LTB122&theme=radical" height="180" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LTB122&theme=radical" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=LTB122&theme=tokyonight" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LTB122&theme=tokyonight" height="180" />
   
   <br/>
   
-  <img src="https://streak-stats.demolab.com/?user=LTB122&theme=radical&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" alt="Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=LTB122&theme=tokyonight&hide_border=false&date_format=M%20j%5B%2C%20Y%5D" alt="Streak Stats" />
 </div>
 
 ---
 
 <h2 align="center">🚀 Deep Analysis</h2>
 <div align="center">
-  <img src="./github-metrics.svg" width="100%" />
+  <img src="https://github.com/LTB122/LTB122/blob/metrics/github-metrics.svg" width="100%" />
 </div>
 
 ---
 
 <h2 align="center">📈 Activity Graph</h2>
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LTB122&theme=radical&bg_color=141321&hide_border=true&area=true&color=fe428e" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LTB122&theme=github&bg_color=ffffff&hide_border=true&area=true&color=f7768e" width="100%" />
 </div>
 
 ---
