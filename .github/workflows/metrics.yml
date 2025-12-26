@@ -14,28 +14,35 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token của bạn (Mặc định Github sẽ tự hiểu)
+          # Token
           token: ${{ secrets.GITHUB_TOKEN }}
 
-          # Cấu hình người dùng
+          # Cấu hình user
           user: LTB122
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
-
-          config_style: "background-color: #141321; color: #a9fef7;"
           
-          # Plugin: Ngôn ngữ chi tiết
+          # --- PHẦN SỬA LỖI ---
+          # Dùng extras_css để ép màu Radical (Nền tối, chữ Neon)
+          extras_css: |
+            svg { background-color: #141321 !important; border-radius: 10px; }
+            .header { color: #fe428e !important; }
+            .field { color: #a9fef7 !important; }
+            h1, h2, h3 { color: #fe428e !important; }
+          # --------------------
+          
+          # Plugin: Ngôn ngữ
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css
           plugin_languages_details: bytes-size, percentage
           
-          # Plugin: Thói quen code (Sáng/Trưa/Chiều/Tối)
+          # Plugin: Thói quen
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           
-          # Plugin: Lịch isometric (Giống cái 3D)
+          # Plugin: Lịch isometric
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
