@@ -22,6 +22,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
+
+          config_style: "background-color: #141321; color: #a9fef7;"
           
           # Plugin: Ngôn ngữ chi tiết
           plugin_languages: yes
