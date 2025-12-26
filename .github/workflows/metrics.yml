@@ -23,23 +23,15 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Ho_Chi_Minh
           
-          # --- PHẦN STYLE ĐÃ FIX (NỀN TRẮNG - CHỮ RÕ) ---
+          # --- PHẦN SỬA LỖI ---
+          # Dùng extras_css để ép màu Radical (Nền tối, chữ Neon)
           extras_css: |
-            /* Nền trắng, bo góc */
-            svg { background-color: #ffffff !important; border-radius: 10px; }
-            
-            /* Tiêu đề to: Màu Tím Đậm (cho đồng bộ với cái Typing) */
-            .header, h1, h2, h3 { color: #9850e4 !important; }
-            
-            /* Chữ nội dung: Màu Đen Xanh (để đọc rõ trên nền trắng) */
-            .field, .content, .stat { color: #1f2937 !important; }
-            
-            /* Các con số/highlight: Màu Hồng Neon */
-            strong, b, .large { color: #fe428e !important; }
-            
-            /* Icon: Màu Xanh Dương */
-            .icon { color: #7aa2f7 !important; fill: #7aa2f7 !important; }
+            svg { background-color: #141321 !important; border-radius: 10px; }
+            .header { color: #fe428e !important; }
+            .field { color: #a9fef7 !important; }
+            h1, h2, h3 { color: #fe428e !important; }
           # --------------------
+          
           # Plugin: Ngôn ngữ
           plugin_languages: yes
           plugin_languages_ignored: >-
@@ -54,3 +46,19 @@ jobs:
           # Plugin: Lịch isometric
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+
+          # 1. Plugin Giới thiệu (Để tiêu đề nhìn cho to)
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          
+          # 2. Plugin Lịch 3D (Cái này nhìn nguy hiểm nhất)
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          
+          # 4. Plugin Thói quen (Sáng/Trưa/Chiều/Tối)
+          plugin_habits_trim: yes
+          
+          # 5. Plugin Dòng code (Thêm cái này cho nhiều dữ liệu)
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
