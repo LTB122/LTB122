@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=f7768e,9850e4,7aa2f7&height=250&section=header&text=LTB122&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Dev%20%7C%20Code%20with%20Passion&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=f7768e,9850e4,7aa2f7&height=250&section=header&text=Le%20Tran&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Fullstack%20Dev%20%7C%20Code%20with%20Passion&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9850E4&center=true&vCenter=true&width=435&lines=Welcome+to+my+workspace!;Building+solutions+for+tomorrow;Kotlin+%7C+Node.js+%7C+Python" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9850E4&center=true&vCenter=true&width=435&lines=Mobile+%26+Backend+Developer;Building+useful+apps;Always+learning+new+things" alt="Typing SVG" />
   </a>
 </div>
 
